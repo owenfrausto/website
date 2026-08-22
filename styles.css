@@ -1,0 +1,160 @@
+:root {
+  color: #111;
+  background: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.42;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  width: min(680px, calc(100% - 3rem));
+  margin: 3.5rem auto 5rem;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2.2rem;
+}
+
+.name {
+  color: #111;
+  font-size: 1.35rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.site-header nav a {
+  font-size: 0.95rem;
+}
+
+.glyph-link {
+  display: inline-flex;
+  width: 1.05rem;
+  height: 1.05rem;
+  vertical-align: -0.12rem;
+}
+
+.glyph-link svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.inline-symbol {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 0.1em;
+  vertical-align: -0.1em;
+}
+
+.inline-symbol svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.riddle {
+  max-width: 33rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.lede {
+  font-size: 1.08rem;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+  text-underline-offset: 0.08em;
+}
+
+a:hover {
+  color: #551a8b;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+
+.project-list li + li {
+  margin-top: 0.28rem;
+}
+
+.project-list span {
+  color: #252525;
+}
+
+.aside {
+  margin-top: 2.4rem;
+}
+
+footer {
+  margin-top: 4rem;
+  color: #555;
+  font-size: 0.86rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 520px) {
+  main {
+    width: min(100% - 2rem, 680px);
+    margin-top: 2rem;
+  }
+
+  .site-header {
+    margin-bottom: 1.7rem;
+  }
+}
