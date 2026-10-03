@@ -130,6 +130,18 @@ ul {
   margin-top: 2.4rem;
 }
 
+.quotes {
+  margin-top: 1rem;
+}
+
+.quotes-title {
+  margin-bottom: 1rem;
+}
+
+.quotes-list li + li {
+  margin-top: 1rem;
+}
+
 footer {
   margin-top: 4rem;
   color: #555;
