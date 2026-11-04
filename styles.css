@@ -130,16 +130,30 @@ ul {
   margin-top: 2.4rem;
 }
 
-.quotes {
-  margin-top: 1rem;
+.artwork {
+  margin: 2rem 0 0;
 }
 
-.quotes-title {
-  margin-bottom: 1rem;
+.artwork-image {
+  display: block;
+  position: relative;
+  aspect-ratio: 1077 / 693;
+  overflow: hidden;
 }
 
-.quotes-list li + li {
-  margin-top: 1rem;
+.artwork img {
+  display: block;
+  position: absolute;
+  width: 111.42%;
+  height: auto;
+  left: -5.57%;
+  top: -8.37%;
+}
+
+.artwork figcaption {
+  margin-top: 0.5rem;
+  color: #999;
+  font-size: 0.8rem;
 }
 
 footer {
